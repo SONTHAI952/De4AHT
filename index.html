@@ -5,52 +5,241 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/de4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8f4ddd016f.js" crossorigin="anonymous"></script>
     <title>GYMAX</title>
 </head>
 <body>
     <div class="all">
+
+        <!--Header-->
         <header>
-            <div class="container">
-                <div class="main-header">
-                    <div class="header-logo">
-                        <img src="" >
+            <div class="header-background">
+                <!--Navigation bar-->
+                <div class="header-top">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="header-logo">
+                                <img src="img/Logo.png" >
+                            </div>
+                            <div class="header-navigator">
+                                <div id="toggle-header-menu">
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Classes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contacts</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-menu">
+                                <ul class="menu-list">
+                                    <li class="icon-search">
+                                        <a href="#">
+                                            <button>
+                                                <i class="fa-sharp fa-solid fa-magnifying-glass" id="menu-icon"></i>
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li id="menu-icon">|</li>
+                                    <li class="icon-cart">
+                                        <a href="#">
+                                            <button>
+                                                <i class="fa-solid fa-basket-shopping"
+                                                id="menu-icon"></i>
+                                                <span class="cart-amount">0</span>
+                                            </button>
+                                        </a>
+                                    </li>
+                                    <li id="menu-icon">|</li>
+                                    <li class="icon-user">
+                                        <a href="#">
+                                            <button>
+                                                <i class="fa-solid fa-user"
+                                        id="menu-icon"></i>
+                                            </button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Header banner content-->
+                        <div class="header-banner">
+                            <div class="text-banner">
+                                <div class="text-banner-title">
+                                    <h1>Dumbbells Shop</h1>
+                                </div>
+                                <div class="text-banner-header">
+                                    <h3>Best body fitness</h3>
+                                </div>
+                                <div class="text-banner-content">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                                </div>
+                                <div class="text-banner-footer">
+                                    <button id="button-banner">SHOP NOW</button>
+                                </div>
+                            </div>
+                            <div class="image-banner">
+                                <img src="img/Female.png">
+                            </div>
+                        </div>
                     </div>
-                <div class="header-navigator">
-                    <div id="toggle-header-menu">
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Pages</a>
-                        </li>
-                        <li>
-                            <a href="#">Classes</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
                 </div>
             </div>
         </header>
+        <!--Content-->
         <section>
             
         </section>
+        <!--Footer-->
         <footer>
             <div class="footer">
                 <div class="container">
-                    <div class="top-content">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                    <div class="footer-top">
+                        <div class="footer-top-content">
+                            <div class="footer-top-logo">
+                                <img src="img/Logo.png">
+                            </div>
+                            <div class="footer-top-body">  
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+                            </div>
+                            <div class="footer-icon">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-top-contact">
+                            <div class="contact-list">
+                                <div class="contact">
+                                    <div class="contact-tile">
+                                        <h4>CONTACT US</h4>
+                                    </div>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                    <span id="info">200 Lincoln Ave, Salinas, CA 93901</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-solid fa-phone-flip"></i>
+                                                    <span id="info">023 32423 223</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-solid fa-envelope"></i>
+                                                    <span id="info">gymax@example.com</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fa-sharp fa-solid fa-clock"></i>
+                                                    <span id="info">9:00 - 20:00 All day</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <div class="contact-tile">
+                                        <h4>MY ACCOUNT</h4>
+                                    </div>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">My account</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Check out</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <div class="contact-tile">
+                                        <h4>INFORMATION</h4>
+                                    </div>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terms of user</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Privacy policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <div class="contact-tile">
+                                        <h4>QUICK LINK</h4>
+                                    </div>
+                                    <div class="info-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#">New user</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Help center</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Report spam</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">FAQs</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Copyright © 2019 Gymax - Design by ArrowHitech- All Rights Reserved</p>
                 </div>
             </div>
         </footer>
