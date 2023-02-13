@@ -1,0 +1,139 @@
+
+/* Mobile: width <= 1250px */
+@media all and (max-width: 1250px){
+
+}
+
+/* Mobile: width <= 1230px */
+@media all and (max-width: 1229px){
+    .container{
+        width: 90%;
+    }
+    .header-content {
+        column-gap: 80px;
+    }
+    .image-banner{
+        right: 0px;
+    }
+    .contact-list{
+        column-gap: 150px;
+    }
+}
+
+/* Mobile: width <= 1186px */
+@media all and (max-width: 1186px){
+    .header-content {
+        column-gap: 70px;
+    }
+    .header-logo {
+        width: 100%;
+    }
+    .contact-list{
+        column-gap: 130px;
+    }
+}
+
+
+/* Mobile: width <= 1184 */
+@media all and (max-width: 1184px){
+
+    .header-navigator ul{
+        column-gap: 29px;
+    }
+    .menu-list{
+        column-gap: 15px;
+    }
+    .cart-amount{
+        right: 37px;
+    }
+}
+
+/* Mobile: width <= 1151 */
+@media all and (max-width: 1151px){
+    .header-logo {
+        width: 70%;
+    }
+    .header-navigator ul{
+        column-gap: 35px;
+    }
+}
+
+/* Mobile: width <= 1024px */
+@media all and (max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+    .header-logo{
+        margin-top: 0px;
+    }
+    .header-content{
+        column-gap: 50px;
+    }
+    .header-navigator ul {
+        column-gap: 20px;
+    }
+    .text-banner{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text-banner-title h1{
+        text-align: center
+    }
+    .text-banner-header h3{
+        text-align: center;
+    }
+    .text-banner-content{
+        margin: auto;
+        text-align: center;
+    }
+    .text-banner-footer{
+        position: relative;
+        display: block;
+        margin-top: 40px;
+    }
+    #button-banner{
+        position: absolute ;
+        left: 42%;
+    }
+    .image-banner{
+        display: none;
+    }
+    .intro-list{
+        
+    }
+    .intro-item-icon-1 img{
+    }
+    .contact-list {
+        column-gap: 100px;
+    }
+}
+
+/* Mobile: width <= 790px */
+@media all and (max-width: 790px){
+    .footer-top-contact{
+        column-count: 2;
+        column-gap: 40px;
+    }
+    .contact-list{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+/* Mobile: width <= 768px */
+@media all and (max-width: 768px){
+    .all{
+        max-width: 100%;
+    }
+    
+}
+
+/* Mobile: width <= 576px */
+@media all and (max-width: 576px){
+    
+}
+
+/* Mobile: width <= 375px */
+@media all and (max-width: 375px){
+    
+}

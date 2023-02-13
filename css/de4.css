@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.all{
+    width: 100%;
+}
 img{
     max-width: 100%;
 }
@@ -30,17 +33,17 @@ li {
 
 .header-content{
     display: flex;
+    justify-content: space-between;
     padding-top: 23px;
-    column-gap: 90px;
 }
 
 .header-logo{
-    width: 200px;
-    height: 54px;
+    width: 17%;
 }
 
 .header-navigator{
     padding-top: 17px;
+    padding-right: 45px;
 }
 
 .header-navigator ul{
@@ -65,7 +68,6 @@ li {
     padding-top: 20px;
     list-style: none;
     position: relative;
-    left: 42px;
 }
 
 .menu-list{
@@ -83,7 +85,6 @@ li {
 .cart-amount{
     color: white;
     position: absolute;
-    right: 0;
     font-weight: bolder;
     font-family: 'Poppins';
     font-size: 10px;
@@ -97,12 +98,14 @@ li {
 }
 
 .text-banner{
-    width: 540px;
+    width: 100%;
     color: #ffffff;
     position: relative;
-    top: 216px;
+    top: 213px;
 }
-
+.text-banner-content{
+    width: 46%;
+}
 .text-banner-title h1{
     font-size: 60px;
     font-weight: bold;
@@ -130,7 +133,7 @@ li {
 }
 
 #button-banner{
-    width: 170px;
+    width: 14.5%;
     height: 50px;
     color: #ffffff;
     background-color: #ffffff00;
@@ -148,8 +151,8 @@ li {
 
 .image-banner{
     position: absolute;
-    right: -22px;
-    top: 114px;
+    right: -23px;
+    top: 111px;
     width: 437px;
     height: 759px;
 }
@@ -175,17 +178,21 @@ li {
     display: flex;
     flex-wrap: wrap;
     background-color: #ffffff;
-    height: 500px;
+}
+.intro-item-banner{
+    width: 33.33%;
+}
+.intro-item-banner img{
+    height: 100%;
 }
 .intro-item{
-    width: 390px;
-    height: 250px;
+    width: 33.33%;
 }
 .intro-item img{
-    max-height: 250px;
+    height: 100%;
 }
 .intro-item-content{
-    margin-top: 31px;
+    margin-top: 27px;
 }
 .intro-item-icon-1 img{
     display: block;
@@ -200,13 +207,12 @@ li {
     margin-right: auto;
     margin-top: 47px;
     margin-bottom: 30px;
-
 }
 .intro-item-icon-3 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 31px;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 .intro-item-title h5{
@@ -222,7 +228,7 @@ li {
     font-family: "Poppins";
     color: rgb(119, 119, 119);
     line-height: 24px;
-    width: 290px;
+    width: 74%;
     text-align: center;
     margin-top: 22px;
     margin-left: auto;
@@ -338,7 +344,7 @@ li {
     margin-top: 45px;
 }
 .aside-header-content{
-    width: 760px;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -402,7 +408,7 @@ li {
     padding-top: 34px;
     margin-left: auto;
     margin-right: auto;
-    width: 715px;
+    width: 61%;
 }
 .footer-top-body p{
     font-size: 14px;
@@ -432,10 +438,9 @@ li {
 }
 .contact-list{
     display: flex;
-    column-gap: 32px;
+    column-gap: 178px;
 }
 .contact{
-    width: 25%;
     height: auto;
 }
 .contact-tile{
@@ -454,6 +459,7 @@ li {
 }
 .info-list ul li{
     padding-bottom: 20px;
+    align-items: center;
 }
 .info-list a{
     text-decoration: none;
@@ -482,3 +488,4 @@ li {
     text-align: center;
     top: 10px;
 }
+
